@@ -1,6 +1,6 @@
 function [mean_AP, mean_ML, stdev_AP, stdev_ML, rms_AP, rms_ML, ampDisp_AP,...
     ampDisp_ML, meanVel_AP, meanVel_ML, cpAreaConf, cpTotalMeanVel, pathLength]...
-    = CoP_posturography(CoP_AP, CoP_ML)
+    = CoP_posturography(CoP_AP, CoP_ML, frequency)
 %This function uses anteroposterior (AP) and mediolateral (ML) center of pressure
 %data to calculate multiple metrics commonly used to quantify postural
 %control.  
